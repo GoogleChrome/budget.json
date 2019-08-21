@@ -5,6 +5,7 @@
 
 This repository tracks the current `budget.json` format as well as upcoming changes and features. `budget.json` is the format used by [Lighthouse](https://github.com/GoogleChrome/lighthouse) for declaring performance budgets.
 
+NOTE: The Lighthouse npm module is updated periodically, so it doesn't necessarily reflect very recent code changes. Features affected by this are noted in the API docs below. If you don't want to wait for the updated npm package, you can install Lighthouse directly from [Github](https://github.com/GoogleChrome/lighthouse) to get the most up-to-date code.
 
 ## Sample budget.json file
 The `budget.json` file is an array containing one or more `Budget` objects.
@@ -53,7 +54,7 @@ This section provides more information on the properties that are a part of the 
 
 ### path
 
-_Optional, String_
+_Optional, String, Lighthouse 5.3 & up_
 
 The `path` property indciates the pages that a budget applies to. This string should follow the [robots.txt](https://developers.google.com/search/reference/robots_txt#examples-of-valid-robotstxt-urls) format.
 
