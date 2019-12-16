@@ -26,7 +26,7 @@ This sample `budget.json` file below contains two `Budget` objects:
          {
             "resourceType":"script",
             "budget":150
-         },
+         }
       ],
       "resourceCounts":[
          {
